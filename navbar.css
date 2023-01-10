@@ -1,0 +1,58 @@
+.main{
+    background-color: antiquewhite;
+    min-height: 100%;
+}
+
+.navv{
+    background-color: #f3b8b8;
+    overflow: hidden;
+}
+
+.navv a{
+    text-decoration: none;
+    float: left;
+    padding: 13px 16px;
+    font-size: 20px;
+}
+.drpmain{
+    overflow: hidden;
+    float: left;
+
+}
+
+.drpbutton{
+    background-color: green;
+    padding: 17px 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.drpsub{
+    position: absolute;
+    min-width: 140px;
+    /* min-height: 140px; */
+    background-color: aquamarine;
+    /* display: block; */
+    display: none;
+
+}
+
+.drpsub a{
+    text-decoration: none;
+    display: block;
+    padding: 13px 16px;
+    float: none;
+}
+
+.drpmain:hover .drpsub{
+    display: block;
+}
+.drpbutton:hover{
+    opacity: 0.4;
+}
+.drpsub a:hover{
+    background-color: yellow;
+}
